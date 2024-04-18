@@ -1,0 +1,22 @@
+import math
+
+def digital_root(n):
+    return (n - 1) % 9 + 1 if n != 0 else 0
+
+def check_conditions():
+    # Calculate the power
+    result = 0.123456789 ** 987654321
+
+    # Example parameter, adjust as needed
+    parameter = 123456789
+    root = digital_root(parameter)
+
+    # Condition checks
+    if result < 1e-50 and root == 9:
+        return "Conditions met: Result is zero and digital root is 9."
+    else:
+        return "Conditions not met."
+
+# Example usage
+output = check_conditions()
+print(output)
