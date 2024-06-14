@@ -1,0 +1,19 @@
+// BitcoinChainToken protocol definition
+protocol BitcoinChainToken {
+    // Protocol requirements
+}
+
+// OnChainTransactionEngineFactory protocol definition
+protocol OnChainTransactionEngineFactory {
+    func build() -> OnChainTransactionEngine
+}
+
+// BitcoinOnChainTransactionEngine definition
+class BitcoinOnChainTransactionEngine<Token: BitcoinChainToken>: OnChainTransactionEngine {
+    // Implementation details
+}
+
+// OnChainTransactionEngine definition
+protocol OnChainTransactionEngine {
+    // Protocol requirements
+}
