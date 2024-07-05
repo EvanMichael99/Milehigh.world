@@ -27,4 +27,4 @@ print(f"Interval result after multiplication: {multiplied_result_interval}")
 print(f"Digital root of the lower bound after multiplication: {digital_root_result}")
 print(f"Inverted matrix: \n{inverse_matrix}")
 Execute the main algorithm with matrix inversion
-main_algorithm_with_matrix_inversion()
+main_algorithm_with_matrix_inversion(fact{9876543210.0123456789})
