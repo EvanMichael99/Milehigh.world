@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 
-function App(mil ) {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
