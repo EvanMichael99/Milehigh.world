@@ -1,4 +1,27 @@
-milehigh.world
+// src/App.js
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to Milehigh.world</h1>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+// src/App.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
 1. Music Education and Learning:
 Milehigh.world offers a variety of resources to help musicians enhance their skills and knowledge. This includes tutorials, online courses, and workshops on various aspects of music production, songwriting, music theory, and instrument mastery. These resources aim to provide musicians with the tools and techniques to improve their craft and pursue their musical aspirations.
 2.Networking and Collaboration:
