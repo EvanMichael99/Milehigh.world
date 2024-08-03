@@ -1,7 +1,4 @@
-// src/App.js
-import React from 'react';
-import './App.css';
-    <div className="App">
+<div className="App">
       <header className="App-header">
         <h1>Welcome to Milehigh.world</h1>
       </header>
