@@ -9,8 +9,3 @@ function App(mil ) {
         <h1>Welcome to Milehigh.world</h1>
       </header>
     </div>
-  );
-}
-
-
-
